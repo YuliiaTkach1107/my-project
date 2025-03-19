@@ -9,7 +9,7 @@ document.querySelector('#app').innerHTML = `
   </table>
   <div class='head'>
 <figure>
-<img src= /public/photo.jpg alt='Photo' width = 250px height = 320px>
+<img src='https://raw.githubusercontent.com/YuliiaTkach1107/my-project/main/public/photo.jpg' alt='Photo' width = 250px height = 320px>
 </figure>
     <h1> Yuliia <br>Tkachenko </h1>
     <p>19 ans</p>
