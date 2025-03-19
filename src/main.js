@@ -1,11 +1,22 @@
 import './style.css'
 
 document.querySelector('#app').innerHTML = `
+<section>
+  <table>
+    <tr>
+      <th class='left'>Tkachenko Yuliia</th>
+      <th class='right'> Étudiant</th>
+    </tr>
+  </table>
   <div class='head'>
+<figure>
+<img src="public/photo.jpg" width = 250px height = 320px>
+</figure>
     <h1> Yuliia <br>Tkachenko </h1>
     <p>19 ans</p>
   </div>
   <div class='profil'>
+  
     <h3> Nationalité</h3>
     <p>Ukrainienne</p>
     <h3> Compétences techniques </h3>
@@ -20,7 +31,6 @@ document.querySelector('#app').innerHTML = `
       <li>Travail en équipe et gestion des conflits</li>
       <li>Résolution de problèmes et capacité d'adaptation dans des situations stressantes</li>
     </ul>
-
     <h3> Langues </h3>
     <ul>
       <li> Français : A2</li>
@@ -37,5 +47,11 @@ document.querySelector('#app').innerHTML = `
       <dt>IFOSUP, Wavre-Belgique </dt>
       <dd> Septembre 2024</dd>
     </dl>
-  </div>
+</div>
+<div class='footer'>
+  <p> Tel: +32 498 61 72 63</p>
+  <p> Meerlaan173, Overijse,3090,Belgique</p>
+  <p>ulatkachenko1107@gmail.com</p>
+</div>
+</section>
 `
