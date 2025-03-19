@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+  background-color: rgba(233, 233, 208, 0.848);
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+ul{
+list-style: none;
+margin-left: 0;
+padding-left:0;
+}
+table {
+  width:100%;
+}
+td{
+  font-size: 15px;
+  font-weight:200;
+}
+td.right{
+  text-align: right;
+}
+hr{
+  border:1px solid black;
+}
+div.head{
+  text-align: right;
+}
+div.head p {
+  margin-top: 0;
+  padding-top:0;
+}
+div.head h1{
+  margin-bottom: 0;
+}
