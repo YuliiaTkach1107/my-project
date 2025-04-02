@@ -1,4 +1,4 @@
-import './style.css'
+import './style.css';
 document.querySelector('#app').innerHTML = `
 <section>
   <table>
@@ -18,18 +18,18 @@ document.querySelector('#app').innerHTML = `
   
     <h3> Nationalité</h3>
     <p>Ukrainienne</p>
-    <h3> Compétences techniques </h3>
-    <ul>
-      <li>Connaissance des bases de la programmation :  JavaScript, HTML, CSS </li>
-      <li>Familiarité avec les outils de développement web (VS Code, Chrome DevTools)</li>
-      <li>Bases de données : compréhension des concepts SQL</li>
-    </ul>
+
     <h3>Compétences interpersonnelles </h3>
     <ul>
       <li>Excellentes capacités de communication et écoute active</li>
       <li>Travail en équipe et gestion des conflits</li>
       <li>Résolution de problèmes et capacité d'adaptation dans des situations stressantes</li>
     </ul>
+    <h3>Expérience</h3>
+    <dl>
+      <dt>Travail en tant que vendeuse chez Zara Louvain-la-Neuve</dt>
+      <dd> Juin 2024 - Août 2024</dd>
+    </dl>
     <h3> Langues </h3>
     <ul>
       <li> Français : A2</li>
